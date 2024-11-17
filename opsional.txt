@@ -1,0 +1,7 @@
+FITUR OPSIONAL :
+
+1. Penggunaan animasi hover ketika kursor diarahkan kepada elemen.
+2. Penggunaan onclick="window.open('link', '_blank');" untuk membuka website lain di tab baru ketika button Contact diklik.
+3. Penggunaan tombol tema untuk mengubah dark mode menjadi light mode
+4. Penggunaan javascript agar Ketika tombol more ditekan dapat terjadi perubahan.
+
