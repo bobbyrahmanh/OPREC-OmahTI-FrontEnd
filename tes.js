@@ -81,23 +81,25 @@ function toggleContributor() {
 function toggleProjects() {
   const moreProjects = document.querySelectorAll(".more-projects");
   const button = document.querySelector(".more-button");
-  const startText = document.querySelector(".share-banner-container");
-  const iconPath = button.querySelector(".button-icon path");
   const buttonText = button.querySelector(".button-text");
-  const buttonStyle = button.querySelector(".more-button");
-  const backgroundBorder = document.querySelector(".latest-projects-list");
+  const iconPath = button.querySelector(".button-icon path");
+
+  isMoreProjectsOpened = !isMoreProjectsOpened;
+
+  buttonText.textContent = isMoreProjectsOpened ? "Collapse" : "More";
 
   if (isMoreProjectsOpened) {
-    isMoreProjectsOpened = false;
-
-    buttonText.textContent = "More";
+    iconPath.setAttribute("d", "M480-528 296-344l-56-56 240-240 240 240-56 56-184-184Z");
   } else {
-    isMoreProjectsOpened = true;
-
-    buttonText.textContent = "Collapse";
+    iconPath.setAttribute("d", "M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z");
   }
 
   moreProjects.forEach((item) => {
     item.classList.toggle("hide-projects");
   });
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleButton = document.getElementById("toggleButton");
+  toggleButton.addEventListener("click", toggleProjects);
+});

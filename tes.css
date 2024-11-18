@@ -324,7 +324,7 @@ div.omahti-product-child-container:nth-child(2) {
 
 .latest-projects-desc {
   padding: 50px;
-  width : 525px;
+  width: 525px;
 }
 
 .latest-projects-list {
@@ -374,10 +374,8 @@ div.omahti-product-child-container:nth-child(2) {
   display: none;
 }
 
-
 .more-button {
   height: 49px;
-  width: 129px;
   display: flex;
   padding: 15px 30px;
   gap: 10px;
