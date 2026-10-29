@@ -60,12 +60,6 @@ OPREC-OmahTI-FrontEnd/
 - Gambar pada kartu proyek dan bagian produk masih memakai URL eksternal, sehingga bisa tidak tampil jika sumbernya berubah atau dihapus.
 - Beberapa tautan (menu navigasi, footer, tombol Sign In/Sign Up) masih berupa placeholder.
 
-## Kontributor
-
-Nama yang tercantum pada halaman:
-
-Andreandhiki Riyanta, Fahmi Shampoerna, Daniel Tulung, Rama Andhika Pratama, Muhammad Hanif, Wibi Laksono Wijaya
-
 Repositori dikelola oleh [@bobbyrahmanh](https://github.com/bobbyrahmanh).
 
 
